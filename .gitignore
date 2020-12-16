@@ -27,3 +27,4 @@ build
 gradlew.bat
 gradlew
 gradle
+*.hprof

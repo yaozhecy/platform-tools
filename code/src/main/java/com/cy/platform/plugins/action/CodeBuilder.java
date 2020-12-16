@@ -1,13 +1,13 @@
 package com.cy.platform.plugins.action;
 
+import com.cy.platform.plugins.view.MainForm;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.intellij.openapi.ui.Messages;
 
 public class CodeBuilder extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Messages.showInfoMessage("Hello IDEA", "Hello");
+        new MainForm();
     }
 }
