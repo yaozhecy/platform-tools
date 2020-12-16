@@ -1,20 +1,25 @@
 <idea-plugin>
-    <id>com.cy.platform.platform-tools</id>
+    <id>org.example.platform-tools</id>
     <name>代码生成插件</name>
-    <vendor email="568074019@qq.com" url="http://www.qq.com">YH</vendor>
+    <vendor email="568074019@qq.com" url="http://www.qq.com">YanHua</vendor>
 
     <description><![CDATA[
-    这是一个代码生成插件，用于生成级别的PO，Service，Mapper等代码<br>
-    <em>通用工具/em>
+    Enter工具 short description for your plugin here
+    .Enter 工具short description for your plugin here.<br>
+    <em>工具</em>
     ]]></description>
 
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
+
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
 
     <actions>
-        <action id="test" class="com.cy.platform.plugins.action.TestAction" text="测试按钮" description="测试Action">
+        <!-- Add your actions here -->
+        <action id="codebuilder" class="com.cy.platform.plugins.action.CodeBuilder" text="代码生成" description="代码生成">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
