@@ -18,9 +18,5 @@
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
-        <action id="codebuilder" class="com.cy.platform.plugins.action.CodeBuilder" text="代码生成" description="代码生成">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-        </action>
     </actions>
 </idea-plugin>
