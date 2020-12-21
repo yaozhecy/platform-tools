@@ -14,5 +14,8 @@
     </extensions>
 
     <actions>
+        <action id="MainAction" class="com.cy.platform.plugin.action.MainAction" text="辅助菜单" description="辅助菜单">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
