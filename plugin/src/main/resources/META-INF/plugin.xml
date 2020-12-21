@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.cy.platform.platform-plugin</id>
+    <name>开发插件</name>
+    <vendor email="568074019@qq.com" url="http://www.baidu.com">yaozhe</vendor>
+
+    <description><![CDATA[
+    这是一个普通的插件，用于提高开发效率与开发速度等等.用于提高开发效率与开发速度等等<br>
+    <em>哈哈</em>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+    </actions>
+</idea-plugin>
